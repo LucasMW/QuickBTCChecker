@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFF62BA426015BA10091CF9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF62BA326015BA10091CF9C /* AppDelegate.swift */; };
+		FFF62BA626015BA10091CF9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF62BA526015BA10091CF9C /* ContentView.swift */; };
+		FFF62BA826015BA30091CF9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFF62BA726015BA30091CF9C /* Assets.xcassets */; };
+		FFF62BAB26015BA30091CF9C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFF62BAA26015BA30091CF9C /* Preview Assets.xcassets */; };
+		FFF62BAE26015BA30091CF9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF62BAC26015BA30091CF9C /* Main.storyboard */; };
+		FFF62BBA26015BA30091CF9C /* QuickBTCCheckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF62BB926015BA30091CF9C /* QuickBTCCheckTests.swift */; };
+		FFF62BC526015BA30091CF9C /* QuickBTCCheckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF62BC426015BA30091CF9C /* QuickBTCCheckUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFF62BB626015BA30091CF9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFF62B9826015BA10091CF9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFF62B9F26015BA10091CF9C;
+			remoteInfo = QuickBTCCheck;
+		};
+		FFF62BC126015BA30091CF9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFF62B9826015BA10091CF9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFF62B9F26015BA10091CF9C;
+			remoteInfo = QuickBTCCheck;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFF62BA026015BA10091CF9C /* QuickBTCCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickBTCCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF62BA326015BA10091CF9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFF62BA526015BA10091CF9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FFF62BA726015BA30091CF9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFF62BAA26015BA30091CF9C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FFF62BAD26015BA30091CF9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFF62BAF26015BA30091CF9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFF62BB026015BA30091CF9C /* QuickBTCCheck.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QuickBTCCheck.entitlements; sourceTree = "<group>"; };
+		FFF62BB526015BA30091CF9C /* QuickBTCCheckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickBTCCheckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF62BB926015BA30091CF9C /* QuickBTCCheckTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickBTCCheckTests.swift; sourceTree = "<group>"; };
+		FFF62BBB26015BA30091CF9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFF62BC026015BA30091CF9C /* QuickBTCCheckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickBTCCheckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF62BC426015BA30091CF9C /* QuickBTCCheckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickBTCCheckUITests.swift; sourceTree = "<group>"; };
+		FFF62BC626015BA30091CF9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFF62B9D26015BA10091CF9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF62BB226015BA30091CF9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF62BBD26015BA30091CF9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFF62B9726015BA10091CF9C = {
+			isa = PBXGroup;
+			children = (
+				FFF62BA226015BA10091CF9C /* QuickBTCCheck */,
+				FFF62BB826015BA30091CF9C /* QuickBTCCheckTests */,
+				FFF62BC326015BA30091CF9C /* QuickBTCCheckUITests */,
+				FFF62BA126015BA10091CF9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFF62BA126015BA10091CF9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFF62BA026015BA10091CF9C /* QuickBTCCheck.app */,
+				FFF62BB526015BA30091CF9C /* QuickBTCCheckTests.xctest */,
+				FFF62BC026015BA30091CF9C /* QuickBTCCheckUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFF62BA226015BA10091CF9C /* QuickBTCCheck */ = {
+			isa = PBXGroup;
+			children = (
+				FFF62BA326015BA10091CF9C /* AppDelegate.swift */,
+				FFF62BA526015BA10091CF9C /* ContentView.swift */,
+				FFF62BA726015BA30091CF9C /* Assets.xcassets */,
+				FFF62BAC26015BA30091CF9C /* Main.storyboard */,
+				FFF62BAF26015BA30091CF9C /* Info.plist */,
+				FFF62BB026015BA30091CF9C /* QuickBTCCheck.entitlements */,
+				FFF62BA926015BA30091CF9C /* Preview Content */,
+			);
+			path = QuickBTCCheck;
+			sourceTree = "<group>";
+		};
+		FFF62BA926015BA30091CF9C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FFF62BAA26015BA30091CF9C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FFF62BB826015BA30091CF9C /* QuickBTCCheckTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFF62BB926015BA30091CF9C /* QuickBTCCheckTests.swift */,
+				FFF62BBB26015BA30091CF9C /* Info.plist */,
+			);
+			path = QuickBTCCheckTests;
+			sourceTree = "<group>";
+		};
+		FFF62BC326015BA30091CF9C /* QuickBTCCheckUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFF62BC426015BA30091CF9C /* QuickBTCCheckUITests.swift */,
+				FFF62BC626015BA30091CF9C /* Info.plist */,
+			);
+			path = QuickBTCCheckUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFF62B9F26015BA10091CF9C /* QuickBTCCheck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFF62BC926015BA30091CF9C /* Build configuration list for PBXNativeTarget "QuickBTCCheck" */;
+			buildPhases = (
+				FFF62B9C26015BA10091CF9C /* Sources */,
+				FFF62B9D26015BA10091CF9C /* Frameworks */,
+				FFF62B9E26015BA10091CF9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickBTCCheck;
+			productName = QuickBTCCheck;
+			productReference = FFF62BA026015BA10091CF9C /* QuickBTCCheck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFF62BB426015BA30091CF9C /* QuickBTCCheckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFF62BCC26015BA30091CF9C /* Build configuration list for PBXNativeTarget "QuickBTCCheckTests" */;
+			buildPhases = (
+				FFF62BB126015BA30091CF9C /* Sources */,
+				FFF62BB226015BA30091CF9C /* Frameworks */,
+				FFF62BB326015BA30091CF9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFF62BB726015BA30091CF9C /* PBXTargetDependency */,
+			);
+			name = QuickBTCCheckTests;
+			productName = QuickBTCCheckTests;
+			productReference = FFF62BB526015BA30091CF9C /* QuickBTCCheckTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFF62BBF26015BA30091CF9C /* QuickBTCCheckUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFF62BCF26015BA30091CF9C /* Build configuration list for PBXNativeTarget "QuickBTCCheckUITests" */;
+			buildPhases = (
+				FFF62BBC26015BA30091CF9C /* Sources */,
+				FFF62BBD26015BA30091CF9C /* Frameworks */,
+				FFF62BBE26015BA30091CF9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFF62BC226015BA30091CF9C /* PBXTargetDependency */,
+			);
+			name = QuickBTCCheckUITests;
+			productName = QuickBTCCheckUITests;
+			productReference = FFF62BC026015BA30091CF9C /* QuickBTCCheckUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFF62B9826015BA10091CF9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Lucas Menezes";
+				TargetAttributes = {
+					FFF62B9F26015BA10091CF9C = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					FFF62BB426015BA30091CF9C = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = FFF62B9F26015BA10091CF9C;
+					};
+					FFF62BBF26015BA30091CF9C = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = FFF62B9F26015BA10091CF9C;
+					};
+				};
+			};
+			buildConfigurationList = FFF62B9B26015BA10091CF9C /* Build configuration list for PBXProject "QuickBTCCheck" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFF62B9726015BA10091CF9C;
+			productRefGroup = FFF62BA126015BA10091CF9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFF62B9F26015BA10091CF9C /* QuickBTCCheck */,
+				FFF62BB426015BA30091CF9C /* QuickBTCCheckTests */,
+				FFF62BBF26015BA30091CF9C /* QuickBTCCheckUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFF62B9E26015BA10091CF9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF62BAE26015BA30091CF9C /* Main.storyboard in Resources */,
+				FFF62BAB26015BA30091CF9C /* Preview Assets.xcassets in Resources */,
+				FFF62BA826015BA30091CF9C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF62BB326015BA30091CF9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF62BBE26015BA30091CF9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFF62B9C26015BA10091CF9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF62BA626015BA10091CF9C /* ContentView.swift in Sources */,
+				FFF62BA426015BA10091CF9C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF62BB126015BA30091CF9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF62BBA26015BA30091CF9C /* QuickBTCCheckTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF62BBC26015BA30091CF9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF62BC526015BA30091CF9C /* QuickBTCCheckUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFF62BB726015BA30091CF9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFF62B9F26015BA10091CF9C /* QuickBTCCheck */;
+			targetProxy = FFF62BB626015BA30091CF9C /* PBXContainerItemProxy */;
+		};
+		FFF62BC226015BA30091CF9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFF62B9F26015BA10091CF9C /* QuickBTCCheck */;
+			targetProxy = FFF62BC126015BA30091CF9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFF62BAC26015BA30091CF9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFF62BAD26015BA30091CF9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFF62BC726015BA30091CF9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFF62BC826015BA30091CF9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FFF62BCA26015BA30091CF9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = QuickBTCCheck/QuickBTCCheck.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"QuickBTCCheck/Preview Content\"";
+				DEVELOPMENT_TEAM = N39N6XW3TU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = QuickBTCCheck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = MWAPPTECH.QuickBTCCheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FFF62BCB26015BA30091CF9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = QuickBTCCheck/QuickBTCCheck.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"QuickBTCCheck/Preview Content\"";
+				DEVELOPMENT_TEAM = N39N6XW3TU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = QuickBTCCheck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = MWAPPTECH.QuickBTCCheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FFF62BCD26015BA30091CF9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = N39N6XW3TU;
+				INFOPLIST_FILE = QuickBTCCheckTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = MWAPPTECH.QuickBTCCheckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuickBTCCheck.app/Contents/MacOS/QuickBTCCheck";
+			};
+			name = Debug;
+		};
+		FFF62BCE26015BA30091CF9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = N39N6XW3TU;
+				INFOPLIST_FILE = QuickBTCCheckTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = MWAPPTECH.QuickBTCCheckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuickBTCCheck.app/Contents/MacOS/QuickBTCCheck";
+			};
+			name = Release;
+		};
+		FFF62BD026015BA30091CF9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = N39N6XW3TU;
+				INFOPLIST_FILE = QuickBTCCheckUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MWAPPTECH.QuickBTCCheckUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = QuickBTCCheck;
+			};
+			name = Debug;
+		};
+		FFF62BD126015BA30091CF9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = N39N6XW3TU;
+				INFOPLIST_FILE = QuickBTCCheckUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MWAPPTECH.QuickBTCCheckUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = QuickBTCCheck;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFF62B9B26015BA10091CF9C /* Build configuration list for PBXProject "QuickBTCCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF62BC726015BA30091CF9C /* Debug */,
+				FFF62BC826015BA30091CF9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFF62BC926015BA30091CF9C /* Build configuration list for PBXNativeTarget "QuickBTCCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF62BCA26015BA30091CF9C /* Debug */,
+				FFF62BCB26015BA30091CF9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFF62BCC26015BA30091CF9C /* Build configuration list for PBXNativeTarget "QuickBTCCheckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF62BCD26015BA30091CF9C /* Debug */,
+				FFF62BCE26015BA30091CF9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFF62BCF26015BA30091CF9C /* Build configuration list for PBXNativeTarget "QuickBTCCheckUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF62BD026015BA30091CF9C /* Debug */,
+				FFF62BD126015BA30091CF9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFF62B9826015BA10091CF9C /* Project object */;
+}
