@@ -1,0 +1,6 @@
+framework module Pods_QuickBTCCheck_QuickBTCCheckUITests {
+  umbrella header "Pods-QuickBTCCheck-QuickBTCCheckUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

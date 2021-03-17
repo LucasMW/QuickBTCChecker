@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04DF0BEA155490DFD19CC364 /* Pods_QuickBTCCheck_QuickBTCCheckUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C764A112B37CBB3D87E1C842 /* Pods_QuickBTCCheck_QuickBTCCheckUITests.framework */; };
+		195ECEB1DEB86D75EBB066A8 /* Pods_QuickBTCCheck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFC3B1AC57FD17AAA7945E2 /* Pods_QuickBTCCheck.framework */; };
+		9414D457872B50D4E85F125C /* Pods_QuickBTCCheckTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EC66CBB29ED1B8B28D277F /* Pods_QuickBTCCheckTests.framework */; };
 		FFF62BA426015BA10091CF9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF62BA326015BA10091CF9C /* AppDelegate.swift */; };
 		FFF62BA626015BA10091CF9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF62BA526015BA10091CF9C /* ContentView.swift */; };
 		FFF62BA826015BA30091CF9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFF62BA726015BA30091CF9C /* Assets.xcassets */; };
@@ -14,6 +17,13 @@
 		FFF62BAE26015BA30091CF9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF62BAC26015BA30091CF9C /* Main.storyboard */; };
 		FFF62BBA26015BA30091CF9C /* QuickBTCCheckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF62BB926015BA30091CF9C /* QuickBTCCheckTests.swift */; };
 		FFF62BC526015BA30091CF9C /* QuickBTCCheckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF62BC426015BA30091CF9C /* QuickBTCCheckUITests.swift */; };
+		FFF62BD326015DAC0091CF9C /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF62BD226015DAC0091CF9C /* API.swift */; };
+		FFF62BDB26015F200091CF9C /* Prev_out.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF62BD526015F1F0091CF9C /* Prev_out.swift */; };
+		FFF62BDC26015F200091CF9C /* AddressResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF62BD626015F1F0091CF9C /* AddressResponse.swift */; };
+		FFF62BDD26015F200091CF9C /* Out.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF62BD726015F200091CF9C /* Out.swift */; };
+		FFF62BDE26015F200091CF9C /* Inputs.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF62BD826015F200091CF9C /* Inputs.swift */; };
+		FFF62BDF26015F200091CF9C /* Spending_outpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF62BD926015F200091CF9C /* Spending_outpoints.swift */; };
+		FFF62BE026015F200091CF9C /* Txs.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF62BDA26015F200091CF9C /* Txs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F355155CAA865733CF5345E /* Pods-QuickBTCCheck-QuickBTCCheckUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickBTCCheck-QuickBTCCheckUITests.release.xcconfig"; path = "Target Support Files/Pods-QuickBTCCheck-QuickBTCCheckUITests/Pods-QuickBTCCheck-QuickBTCCheckUITests.release.xcconfig"; sourceTree = "<group>"; };
+		46EC66CBB29ED1B8B28D277F /* Pods_QuickBTCCheckTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickBTCCheckTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EFC3B1AC57FD17AAA7945E2 /* Pods_QuickBTCCheck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickBTCCheck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58969A99E3ECBD6F6940541B /* Pods-QuickBTCCheckTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickBTCCheckTests.release.xcconfig"; path = "Target Support Files/Pods-QuickBTCCheckTests/Pods-QuickBTCCheckTests.release.xcconfig"; sourceTree = "<group>"; };
+		B8AC345BD80911968B3A4CC3 /* Pods-QuickBTCCheck-QuickBTCCheckUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickBTCCheck-QuickBTCCheckUITests.debug.xcconfig"; path = "Target Support Files/Pods-QuickBTCCheck-QuickBTCCheckUITests/Pods-QuickBTCCheck-QuickBTCCheckUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B987E350C9F416489BF56567 /* Pods-QuickBTCCheckTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickBTCCheckTests.debug.xcconfig"; path = "Target Support Files/Pods-QuickBTCCheckTests/Pods-QuickBTCCheckTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C764A112B37CBB3D87E1C842 /* Pods_QuickBTCCheck_QuickBTCCheckUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickBTCCheck_QuickBTCCheckUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1DE741235E4FD0788BF67F6 /* Pods-QuickBTCCheck.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickBTCCheck.release.xcconfig"; path = "Target Support Files/Pods-QuickBTCCheck/Pods-QuickBTCCheck.release.xcconfig"; sourceTree = "<group>"; };
+		FB7316EAB68CBB5BA56DEEEA /* Pods-QuickBTCCheck.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickBTCCheck.debug.xcconfig"; path = "Target Support Files/Pods-QuickBTCCheck/Pods-QuickBTCCheck.debug.xcconfig"; sourceTree = "<group>"; };
 		FFF62BA026015BA10091CF9C /* QuickBTCCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickBTCCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFF62BA326015BA10091CF9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFF62BA526015BA10091CF9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +67,13 @@
 		FFF62BC026015BA30091CF9C /* QuickBTCCheckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickBTCCheckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFF62BC426015BA30091CF9C /* QuickBTCCheckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickBTCCheckUITests.swift; sourceTree = "<group>"; };
 		FFF62BC626015BA30091CF9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFF62BD226015DAC0091CF9C /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		FFF62BD526015F1F0091CF9C /* Prev_out.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Prev_out.swift; sourceTree = "<group>"; };
+		FFF62BD626015F1F0091CF9C /* AddressResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressResponse.swift; sourceTree = "<group>"; };
+		FFF62BD726015F200091CF9C /* Out.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Out.swift; sourceTree = "<group>"; };
+		FFF62BD826015F200091CF9C /* Inputs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Inputs.swift; sourceTree = "<group>"; };
+		FFF62BD926015F200091CF9C /* Spending_outpoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spending_outpoints.swift; sourceTree = "<group>"; };
+		FFF62BDA26015F200091CF9C /* Txs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Txs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				195ECEB1DEB86D75EBB066A8 /* Pods_QuickBTCCheck.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9414D457872B50D4E85F125C /* Pods_QuickBTCCheckTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,19 +97,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04DF0BEA155490DFD19CC364 /* Pods_QuickBTCCheck_QuickBTCCheckUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33E7E2165CDB402EACB7867F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4EFC3B1AC57FD17AAA7945E2 /* Pods_QuickBTCCheck.framework */,
+				C764A112B37CBB3D87E1C842 /* Pods_QuickBTCCheck_QuickBTCCheckUITests.framework */,
+				46EC66CBB29ED1B8B28D277F /* Pods_QuickBTCCheckTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3366EE61242F0E912BF9E2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB7316EAB68CBB5BA56DEEEA /* Pods-QuickBTCCheck.debug.xcconfig */,
+				E1DE741235E4FD0788BF67F6 /* Pods-QuickBTCCheck.release.xcconfig */,
+				B8AC345BD80911968B3A4CC3 /* Pods-QuickBTCCheck-QuickBTCCheckUITests.debug.xcconfig */,
+				0F355155CAA865733CF5345E /* Pods-QuickBTCCheck-QuickBTCCheckUITests.release.xcconfig */,
+				B987E350C9F416489BF56567 /* Pods-QuickBTCCheckTests.debug.xcconfig */,
+				58969A99E3ECBD6F6940541B /* Pods-QuickBTCCheckTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FFF62B9726015BA10091CF9C = {
 			isa = PBXGroup;
 			children = (
+				FFF62BD426015F160091CF9C /* Response */,
+				FFF62BD226015DAC0091CF9C /* API.swift */,
 				FFF62BA226015BA10091CF9C /* QuickBTCCheck */,
 				FFF62BB826015BA30091CF9C /* QuickBTCCheckTests */,
 				FFF62BC326015BA30091CF9C /* QuickBTCCheckUITests */,
 				FFF62BA126015BA10091CF9C /* Products */,
+				F3366EE61242F0E912BF9E2E /* Pods */,
+				33E7E2165CDB402EACB7867F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,6 +191,19 @@
 			path = QuickBTCCheckUITests;
 			sourceTree = "<group>";
 		};
+		FFF62BD426015F160091CF9C /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				FFF62BD826015F200091CF9C /* Inputs.swift */,
+				FFF62BD626015F1F0091CF9C /* AddressResponse.swift */,
+				FFF62BD726015F200091CF9C /* Out.swift */,
+				FFF62BD526015F1F0091CF9C /* Prev_out.swift */,
+				FFF62BD926015F200091CF9C /* Spending_outpoints.swift */,
+				FFF62BDA26015F200091CF9C /* Txs.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,9 +211,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FFF62BC926015BA30091CF9C /* Build configuration list for PBXNativeTarget "QuickBTCCheck" */;
 			buildPhases = (
+				C3DC61D803869D69BBC92F58 /* [CP] Check Pods Manifest.lock */,
 				FFF62B9C26015BA10091CF9C /* Sources */,
 				FFF62B9D26015BA10091CF9C /* Frameworks */,
 				FFF62B9E26015BA10091CF9C /* Resources */,
+				2A1A703B0ED53373548B1D9A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -159,6 +230,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FFF62BCC26015BA30091CF9C /* Build configuration list for PBXNativeTarget "QuickBTCCheckTests" */;
 			buildPhases = (
+				B71C2F75661443D863BF97B3 /* [CP] Check Pods Manifest.lock */,
 				FFF62BB126015BA30091CF9C /* Sources */,
 				FFF62BB226015BA30091CF9C /* Frameworks */,
 				FFF62BB326015BA30091CF9C /* Resources */,
@@ -177,9 +249,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FFF62BCF26015BA30091CF9C /* Build configuration list for PBXNativeTarget "QuickBTCCheckUITests" */;
 			buildPhases = (
+				0EC08BD3428E68B5A042C299 /* [CP] Check Pods Manifest.lock */,
 				FFF62BBC26015BA30091CF9C /* Sources */,
 				FFF62BBD26015BA30091CF9C /* Frameworks */,
 				FFF62BBE26015BA30091CF9C /* Resources */,
+				B67974DB3D85FB635CAD0FCE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -261,13 +335,123 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0EC08BD3428E68B5A042C299 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuickBTCCheck-QuickBTCCheckUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A1A703B0ED53373548B1D9A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuickBTCCheck/Pods-QuickBTCCheck-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuickBTCCheck/Pods-QuickBTCCheck-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuickBTCCheck/Pods-QuickBTCCheck-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B67974DB3D85FB635CAD0FCE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuickBTCCheck-QuickBTCCheckUITests/Pods-QuickBTCCheck-QuickBTCCheckUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuickBTCCheck-QuickBTCCheckUITests/Pods-QuickBTCCheck-QuickBTCCheckUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuickBTCCheck-QuickBTCCheckUITests/Pods-QuickBTCCheck-QuickBTCCheckUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B71C2F75661443D863BF97B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuickBTCCheckTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3DC61D803869D69BBC92F58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuickBTCCheck-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FFF62B9C26015BA10091CF9C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FFF62BA626015BA10091CF9C /* ContentView.swift in Sources */,
+				FFF62BDB26015F200091CF9C /* Prev_out.swift in Sources */,
+				FFF62BDD26015F200091CF9C /* Out.swift in Sources */,
+				FFF62BD326015DAC0091CF9C /* API.swift in Sources */,
+				FFF62BDC26015F200091CF9C /* AddressResponse.swift in Sources */,
 				FFF62BA426015BA10091CF9C /* AppDelegate.swift in Sources */,
+				FFF62BE026015F200091CF9C /* Txs.swift in Sources */,
+				FFF62BDE26015F200091CF9C /* Inputs.swift in Sources */,
+				FFF62BDF26015F200091CF9C /* Spending_outpoints.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +613,7 @@
 		};
 		FFF62BCA26015BA30091CF9C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB7316EAB68CBB5BA56DEEEA /* Pods-QuickBTCCheck.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = QuickBTCCheck/QuickBTCCheck.entitlements;
@@ -452,6 +637,7 @@
 		};
 		FFF62BCB26015BA30091CF9C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1DE741235E4FD0788BF67F6 /* Pods-QuickBTCCheck.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = QuickBTCCheck/QuickBTCCheck.entitlements;
@@ -475,6 +661,7 @@
 		};
 		FFF62BCD26015BA30091CF9C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B987E350C9F416489BF56567 /* Pods-QuickBTCCheckTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,6 +684,7 @@
 		};
 		FFF62BCE26015BA30091CF9C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58969A99E3ECBD6F6940541B /* Pods-QuickBTCCheckTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +707,7 @@
 		};
 		FFF62BD026015BA30091CF9C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8AC345BD80911968B3A4CC3 /* Pods-QuickBTCCheck-QuickBTCCheckUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +728,7 @@
 		};
 		FFF62BD126015BA30091CF9C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F355155CAA865733CF5345E /* Pods-QuickBTCCheck-QuickBTCCheckUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
