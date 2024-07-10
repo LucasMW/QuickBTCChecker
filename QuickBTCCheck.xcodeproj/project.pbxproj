@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -624,6 +624,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = QuickBTCCheck/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Quick BTC Checker";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.reference";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -648,6 +650,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = QuickBTCCheck/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Quick BTC Checker";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.reference";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
